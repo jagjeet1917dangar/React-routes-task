@@ -14,22 +14,22 @@ function App() {
     },
 
     {
-      path: "/Route01",
+      path: "/mymeals",
       element: <><Navbar /><Website1 /></>
     },
 
     {
-      path: "/Route02",
+      path: "/mocktails",
       element: <><Navbar /><Website2 /></>
     },
 
     {
-      path:"/Route03",
+      path:"/harrypotter",
       element:<><Navbar/><Website3/></>
     },
 
     {
-      path:"/Route04",
+      path:"/bank",
       element:<><Navbar/><Website4/></>
     },
   ])

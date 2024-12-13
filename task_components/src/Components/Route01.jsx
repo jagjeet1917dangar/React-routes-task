@@ -3,7 +3,7 @@ import React from 'react'
 const Route01 = () => {
   return (
     <div>
-      1st
+     1st   
     </div>
   )
 }
