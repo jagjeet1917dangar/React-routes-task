@@ -1,0 +1,79 @@
+.mealInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  
+  .mealInfo img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-bottom: 3px solid #0077cc;
+  }
+  
+  .info {
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .info h1 {
+    font-size: 2.5rem;
+    color: #0077cc;
+    margin-bottom: 1rem;
+  }
+  
+  .info button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s ease;
+  }
+  
+  .info button:hover {
+    background: #005bb5;
+  }
+  
+  .info h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    text-align: justify;
+  }
+  
+  @media (max-width: 768px) {
+    .mealInfo {
+      max-width: 90%;
+    }
+  
+    .info h1 {
+      font-size: 2rem;
+    }
+  
+    .info h3 {
+      font-size: 1.5rem;
+    }
+  
+    .info p {
+      font-size: 0.9rem;
+    }
+  }
+  

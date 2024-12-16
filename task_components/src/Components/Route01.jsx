@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './MyMeals.css';
+import { NavLink } from 'react-router-dom';
 
 const MyMeals = ({ userName }) => {
   const [searchInput, setSearchInput] = useState('');
@@ -45,7 +46,7 @@ const MyMeals = ({ userName }) => {
         <div className="welcome-content">
           <h1>Welcome, {userName || "Guest"}! 🎉</h1>
           <p>
-            We're thrilled to have you here. Dive into our world of delicious meals, magical drinks, and enchanting content. Explore and enjoy your journey!
+            We're thrilled to have you here. Dive into our world of delicious meals. Explore and enjoy your journey!
           </p>
         </div>
       </div>
@@ -83,7 +84,7 @@ const MyMeals = ({ userName }) => {
 
       <div className="meal-categories">
         <h2>Meal Categories</h2>
-        <button onClick={fetchCategories}>View Categories</button>
+        <button onClick={fetchCategories} className='maru'>View Categories</button>
       </div>
 
       {loading && <div className="loading">Loading...</div>}
@@ -96,6 +97,7 @@ const MyMeals = ({ userName }) => {
               <div key={meal.idMeal} className="meal-card">
                 <img src={meal.strMealThumb} alt={meal.strMeal} />
                 <h3>{meal.strMeal}</h3>
+                <NavLink to={`/${meal.idMeal}`}><button>Recipe</button></NavLink>
               </div>
             ))}
           </div>

@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Route03 = () => {
+const Route03 =  () => {
+  const get = fetch(`https://https://potterapi-fedeperin.vercel.app`);
+
+
+
   return (
-    <div>
-      3rd
-    </div>
+  <div>customers</div>
   )
 }
-
 export default Route03;

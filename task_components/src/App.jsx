@@ -5,6 +5,7 @@ import Website2 from './Components/Route02.jsx'
 import Website3 from './Components/Route03.jsx'
 import Website4 from './Components/Route04.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Recipeinfo from './Components/Recipeinfo.jsx'
 
 function App() {
   const router = createBrowserRouter([
@@ -32,6 +33,10 @@ function App() {
       path:"/bank",
       element:<><Navbar/><Website4/></>
     },
+    {
+      path:"/:mealid",
+      element:<><Navbar/><Recipeinfo/></>
+    }
   ])
 
   return (
