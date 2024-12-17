@@ -17,6 +17,20 @@ import Books1 from './Components/Books1.jsx'
 import Characters1 from './Components/Characters1.jsx'
 import Houses1 from './Components/Houses1.jsx'
 import Spells1 from './Components/Spells1.jsx'
+import Books2 from './Components/Books2.jsx'
+import Characters2 from './Components/Characters2.jsx'
+import Houses2 from './Components/Houses2.jsx'
+import Spells2 from './Components/Spells2.jsx'
+import Italiano from './Components/Italiano.jsx'
+import Books3 from './Components/Books3.jsx'
+import Characters3 from './Components/Characters3.jsx'
+import Houses3 from './Components/Houses3.jsx'
+import Spells3 from './Components/Spells3.jsx'
+import Books4 from './Components/Books4.jsx'
+import Characters4 from './Components/Characters4.jsx'
+import Houses4 from './Components/Houses4.jsx'
+import Spells4 from './Components/Spells4.jsx'
+import Portugues from './Components/Portugues.jsx'
 
 function App() {
   const router = createBrowserRouter([
@@ -61,37 +75,93 @@ function App() {
       element:<><Navbar/><Francais/></>
     },
     {
-      path:"/books",
+      path:"/Italiano",
+      element:<><Navbar/><Italiano/></>
+    },
+    {
+      path:"/Portugues",
+      element:<><Navbar/><Portugues/></>
+    },
+    {
+      path:"/English/books",
       element:<><Navbar/><Books/></>
     },
     {
-      path:"/characters",
+      path:"/English/characters",
       element:<><Navbar/><Characters/></>
     },
     {
-      path:"/houses",
+      path:"/English/houses",
       element:<><Navbar/><Houses/></>
     },
     {
-      path:"/spells",
+      path:"/English/spells",
       element:<><Navbar/><Spells/></>
     },
     {
-      path:"/books1",
+      path:"/Espanol/books",
       element:<><Navbar/><Books1/></>
     },
     {
-      path:"/characters1",
+      path:"/Espanol/characters",
       element:<><Navbar/><Characters1/></>
     },
     {
-      path:"/houses1",
+      path:"/Espanol/houses",
       element:<><Navbar/><Houses1/></>
     },
     {
-      path:"/spells1",
+      path:"/Espanol/spells",
       element:<><Navbar/><Spells1/></>
-    }
+    },
+    {
+      path:"/Francais/books",
+      element:<><Navbar/><Books2/></>
+    },
+    {
+      path:"/Francais/characters",
+      element:<><Navbar/><Characters2/></>
+    },
+    {
+      path:"/Francais/houses",
+      element:<><Navbar/><Houses2/></>
+    },
+    {
+      path:"/Francais/spells",
+      element:<><Navbar/><Spells2/></>
+    },
+    {
+      path:"/Italiano/books",
+      element:<><Navbar/><Books3/></>
+    },
+    {
+      path:"/Italiano/characters",
+      element:<><Navbar/><Characters3/></>
+    },
+    {
+      path:"/Italiano/houses",
+      element:<><Navbar/><Houses3/></>
+    },
+    {
+      path:"/Italiano/spells",
+      element:<><Navbar/><Spells3/></>
+    },
+    {
+      path:"/Portugues/books",
+      element:<><Navbar/><Books4/></>
+    },
+    {
+      path:"/Portugues/characters",
+      element:<><Navbar/><Characters4/></>
+    },
+    {
+      path:"/Portugues/houses",
+      element:<><Navbar/><Houses4/></>
+    },
+    {
+      path:"/Portugues/spells",
+      element:<><Navbar/><Spells4/></>
+    },
   ])
 
   return (
