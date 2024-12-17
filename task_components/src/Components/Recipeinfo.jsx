@@ -33,4 +33,4 @@ const Mealinfo = () => {
   )
 }
 
-export default Mealinfo
+export default Mealinfo;

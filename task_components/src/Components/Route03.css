@@ -1,0 +1,57 @@
+/* General container styling */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    margin-top: -250px;
+  }
+  
+  /* Button styling */
+  .shambhu {
+    background-color: #6c5ce7;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover effect for buttons */
+  .shambhu:hover {
+    background-color: #a29bfe;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Focus effect */
+  .shambhu:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(162, 155, 254, 0.5);
+  }
+  
+  /* Active effect for buttons */
+  .shambhu:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .main {
+      gap: 10px;
+      flex-direction: column;
+    }
+  
+    .shambhu {
+      width: 80%;
+    }
+  }
+  
