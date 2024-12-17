@@ -14,5 +14,4 @@ const Italiano = () => {
     </div>
   )
 }
-
-export default Italiano
+export default Italiano;
