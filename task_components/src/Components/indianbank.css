@@ -1,0 +1,125 @@
+/* Reset and Basic Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  }
+  
+  /* Main Container */
+  .mainbank {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: 2px solid #007bff;
+    transition: transform 0.2s;
+  }
+  
+  .mainbank:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Input Fields */
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s, border-color 0.3s;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+  }
+  
+  /* Buttons */
+  form {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Headings */
+  .h4 {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Information Display */
+  .info {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    color: #495057;
+  }
+  
+  .info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info li {
+    margin: 0.7rem 0;
+    font-size: 16px;
+  }
+  
+  .fetch {
+    background: #e9f7fa;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin-bottom: 0.7rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #007bff;
+  }
+  
+  /* Loading Message */
+  .loading {
+    text-align: center;
+    color: #6c757d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  
+  /* Dropdown Suggestions */
+  datalist {
+    font-size: 16px;
+  }
+  
+  /* Transitions */
+  input, .info {
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .mainbank {
+      padding: 1rem;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    .info li {
+      font-size: 14px;
+    }
+  
+    .fetch {
+      font-size: 12px;
+    }
+  }
+  

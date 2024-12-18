@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Spells.css"; // Import the CSS file
+import "./Spells.css"; 
 
 const HarryPotterSpells = () => {
   const [spells, setSpells] = useState([]);
@@ -8,11 +8,11 @@ const HarryPotterSpells = () => {
   useEffect(() => {
     fetch("https://potterapi-fedeperin.vercel.app/es/spells")
       .then((response) => response.json())
-      .then((data) => {
+      .then((data) =>{
         setSpells(data);
         setLoading(false);
       })
-      .catch((error) => {
+      .catch((error)=>{
         console.error("Error fetching spells:", error);
         setLoading(false);
       });

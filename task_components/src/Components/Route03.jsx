@@ -8,11 +8,11 @@ const Route03 = () => {
     <div>
       <h1>In which language do you want to explore?</h1>
     <div className='main'>
-      <NavLink to={`/English`}><button className='shambhu'>English</button></NavLink>
-      <NavLink to={`/Espanol`}><button className='shambhu'>Español</button></NavLink>
-      <NavLink to={`/Francais`}><button className='shambhu'>Français</button></NavLink>
-      <NavLink to={`/Italiano`}><button className='shambhu'>Italiano</button></NavLink>
-      <NavLink to={`/Portugues`}><button className='shambhu'>Português</button></NavLink>
+      <NavLink to={`/english`}><button className='shambhu'>English</button></NavLink>
+      <NavLink to={`/espanol`}><button className='shambhu'>Español</button></NavLink>
+      <NavLink to={`/francais`}><button className='shambhu'>Francais</button></NavLink>
+      <NavLink to={`/italiano`}><button className='shambhu'>Italiano</button></NavLink>
+      <NavLink to={`/portugues`}><button className='shambhu'>Portugues</button></NavLink>
     </div>
     </div>
   )

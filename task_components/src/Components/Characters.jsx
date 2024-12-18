@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./Characters.css"; // Import the CSS file
+import "./Characters.css"; 
 
 const HarryPotterCharacters = () => {
   const [characters, setCharacters] = useState([]);

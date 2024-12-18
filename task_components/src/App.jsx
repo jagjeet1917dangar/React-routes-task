@@ -63,103 +63,103 @@ function App() {
       element:<><Navbar/><Recipeinfo/></>
     },
     {
-      path:"/English",
+      path:"/english",
       element:<><Navbar/><English/></>
     },
     {
-      path:"/Espanol",
+      path:"/espanol",
       element:<><Navbar/><Espanol/></>
     },
     {
-      path:"/Francais",
+      path:"/francais",
       element:<><Navbar/><Francais/></>
     },
     {
-      path:"/Italiano",
+      path:"/italiano",
       element:<><Navbar/><Italiano/></>
     },
     {
-      path:"/Portugues",
+      path:"/portugues",
       element:<><Navbar/><Portugues/></>
     },
     {
-      path:"/English/books",
+      path:"/english/books",
       element:<><Navbar/><Books/></>
     },
     {
-      path:"/English/characters",
+      path:"/english/characters",
       element:<><Navbar/><Characters/></>
     },
     {
-      path:"/English/houses",
+      path:"/english/houses",
       element:<><Navbar/><Houses/></>
     },
     {
-      path:"/English/spells",
+      path:"/english/spells",
       element:<><Navbar/><Spells/></>
     },
     {
-      path:"/Espanol/books",
+      path:"/espanol/books",
       element:<><Navbar/><Books1/></>
     },
     {
-      path:"/Espanol/characters",
+      path:"/espanol/characters",
       element:<><Navbar/><Characters1/></>
     },
     {
-      path:"/Espanol/houses",
+      path:"/espanol/houses",
       element:<><Navbar/><Houses1/></>
     },
     {
-      path:"/Espanol/spells",
+      path:"/espanol/spells",
       element:<><Navbar/><Spells1/></>
     },
     {
-      path:"/Francais/books",
+      path:"/francais/books",
       element:<><Navbar/><Books2/></>
     },
     {
-      path:"/Francais/characters",
+      path:"/francais/characters",
       element:<><Navbar/><Characters2/></>
     },
     {
-      path:"/Francais/houses",
+      path:"/francais/houses",
       element:<><Navbar/><Houses2/></>
     },
     {
-      path:"/Francais/spells",
+      path:"/francais/spells",
       element:<><Navbar/><Spells2/></>
     },
     {
-      path:"/Italiano/books",
+      path:"/italiano/books",
       element:<><Navbar/><Books3/></>
     },
     {
-      path:"/Italiano/characters",
+      path:"/italiano/characters",
       element:<><Navbar/><Characters3/></>
     },
     {
-      path:"/Italiano/houses",
+      path:"/italiano/houses",
       element:<><Navbar/><Houses3/></>
     },
     {
-      path:"/Italiano/spells",
+      path:"/italiano/spells",
       element:<><Navbar/><Spells3/></>
     },
     {
-      path:"/Portugues/books",
+      path:"/portugues/books",
       element:<><Navbar/><Books4/></>
     },
     {
-      path:"/Portugues/characters",
+      path:"/portugues/characters",
       element:<><Navbar/><Characters4/></>
     },
     {
-      path:"/Portugues/houses",
+      path:"/portugues/houses",
       element:<><Navbar/><Houses4/></>
     },
     {
-      path:"/Portugues/spells",
+      path:"/portugues/spells",
       element:<><Navbar/><Spells4/></>
     },
   ])
