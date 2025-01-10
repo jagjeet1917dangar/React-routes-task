@@ -10,6 +10,7 @@ const Navbar = () => {
                 <NavLink className={(e) => { return e.isActive ? "blue" : "" }} id="text" to="/mocktails">Mocktails</NavLink>
                 <NavLink className={(e) => { return e.isActive ? "blue" : "" }} id="text" to="/harrypotter">Harry Potter</NavLink>
                 <NavLink className={(e) => { return e.isActive ? "blue" : "" }} id="text" to="/bank">Bank</NavLink>
+                <NavLink className={(e) => { return e.isActive ? "blue" : "" }} id="text" to="/mongodb">MongoDb</NavLink>
             </nav>
         </div>
     )

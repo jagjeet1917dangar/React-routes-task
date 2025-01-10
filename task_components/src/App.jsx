@@ -4,6 +4,7 @@ import Website1 from './Components/Route01.jsx'
 import Website2 from './Components/Route02.jsx'
 import Website3 from './Components/Route03.jsx'
 import Website4 from './Components/Route04.jsx'
+import Website5 from './Components/Route05.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Recipeinfo from './Components/Recipeinfo.jsx'
 import English from './Components/English.jsx'
@@ -162,6 +163,10 @@ function App() {
       path:"/portugues/spells",
       element:<><Navbar/><Spells4/></>
     },
+    {
+      path:"/mongodb",
+      element:<><Navbar/><Website5/></>
+    }
   ])
 
   return (
